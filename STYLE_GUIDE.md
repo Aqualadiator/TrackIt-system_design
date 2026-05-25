@@ -1,6 +1,6 @@
-# TrackIT Style Guide
+TrackIT Style Guide
 
-## 2.1 Naming Conventions
+2.1 Naming Conventions
 
 | Element | Convention | Example |
 |---------|------------|---------|
@@ -11,7 +11,7 @@
 | Constants | UPPER_CASE | MAX_TASK_LIMIT |
 | Database tables / fields | snake_case | task_id |
 
-## 2.2 Formatting Rules
+2.2 Formatting Rules
 
 | Rule | Team Decision |
 |------|---------------|
@@ -22,7 +22,7 @@
 | Blank lines between functions | 1 blank line |
 | Max function length | 30 lines |
 
-## 2.3 Commenting Standards
+2.3 Commenting Standards
 
 | Commenting Rule | Team Standard |
 |-----------------|---------------|
@@ -32,7 +32,7 @@
 | TODO comment format | // TODO: description |
 | Language for comments | English |
 
-## 2.4 Branch Naming Strategy
+2.4 Branch Naming Strategy
 
 | Branch Type | Naming Format | Example |
 |-------------|---------------|---------|
@@ -40,3 +40,19 @@
 | Bug fix branch | bugfix/<short-description> | bugfix/login-error |
 | Hotfix branch | hotfix/<short-description> | hotfix/reminder-issue |
 | Release branch | release/<version> | release/v1.0 |
+
+Part 3 — Commit Message Format
+
+Format: `<type>(<scope>): <short description>`
+
+Example: `docs(readme): add project description and team members`
+
+| Type | When to Use | In Use? |
+|------|-------------|---------|
+| feat | Add new features | ✓ |
+| fix | Fix bugs/errors | ✓ |
+| docs | Documentation updates | ✓ |
+| style | Code formatting changes | ✓ |
+| refactor | Improve code structure | ✗ |
+| test | Add or update tests | ✗ |
+| chore | Maintenance tasks | ✓ |
